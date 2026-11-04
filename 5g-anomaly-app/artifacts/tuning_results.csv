@@ -1,0 +1,15 @@
+model,config,val_pr_auc
+Isolation Forest,"{'n_estimators': 100, 'max_samples': 'auto'}",0.3064896852969056
+Isolation Forest,"{'n_estimators': 100, 'max_samples': 0.5}",0.516256607954117
+Isolation Forest,"{'n_estimators': 200, 'max_samples': 'auto'}",0.3194319058198071
+Isolation Forest,"{'n_estimators': 200, 'max_samples': 0.5}",0.5158500719389142
+Isolation Forest,"{'n_estimators': 300, 'max_samples': 'auto'}",0.3238645398893944
+Isolation Forest,"{'n_estimators': 300, 'max_samples': 0.5}",0.5147618652095624
+Local Outlier Factor,{'n_neighbors': 10},0.8600284905257253
+Local Outlier Factor,{'n_neighbors': 20},0.8130135913061532
+Local Outlier Factor,{'n_neighbors': 35},0.7667211520688273
+Local Outlier Factor,{'n_neighbors': 50},0.7364850070754365
+Autoencoder,"{'z': 8, 'lr': 0.001}",0.6651798945282271
+Autoencoder,"{'z': 8, 'lr': 0.0005}",0.6499217687047617
+Autoencoder,"{'z': 16, 'lr': 0.001}",0.6919030714207864
+Autoencoder,"{'z': 16, 'lr': 0.0005}",0.6781046870121987
